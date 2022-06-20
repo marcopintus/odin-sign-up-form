@@ -2,16 +2,18 @@
 
 body{
     background-color: #7b97b3; 
-    
+    color: white;
     padding:0;
     margin: 0;
+    display: flex;
+    font-family: Helvetica, sans-serif;
 }
 .left,
 .left-image{
     position: relative;
     margin:0;
     padding: 0;
-    width: 40vw;
+    width: 42vw;
     height: 100vh;
 }
 
@@ -25,16 +27,131 @@ body{
     width: 100%;
     background-color: #7b97b3;
     height: 200px;
-    color: white;
     font-family: Roboto;
     font-weight: 100;
     font-size: 6rem;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     align-items: center;
 }
 
 .logo{
     width: 8rem;
+}
+
+
+.right{
+    position: relative;
+    margin:0;
+    padding: 40x;
+    width: 57vw;
+    height: 100vh;
+}
+
+.info-text-container{
+    padding: 50px;
+    top: 8rem;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 500;
+    width: 72%;
+}
+
+.upper-text,
+.lower-text{
+    margin-bottom: 20px;
+}
+
+form{
+    position: relative;
+    top: 1rem;
+    width: 42vw;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: #7f9ab4;
+    padding: 20px;
+    padding-bottom: 30px
+}
+
+.form-cheer{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.input-container{
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    text-transform: uppercase;
+    
+}
+
+input{
+    border-radius: 4px;
+    height: 1.6rem;
+    background-color: white;
+    padding: 4px;
+    font-size: 1.2rem;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #7b97b3;
+}
+
+label{
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+button{
+    margin-left: 40px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    height: 55px;
+    width: 40%;
+    background-color: #7b97b3;
+    color: white;
+    border: 4px solid white;
+    border-radius: 16px;
+    font-size: 2rem;
+}
+
+button:hover{
+    background-color: white;
+    color: #7b97b3;
+    border: 4px solid #7b97b3;
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+.log-in-link{
+    font-size: 1.4rem;
+    margin-left: 40px;
+}
+
+a{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
 }
