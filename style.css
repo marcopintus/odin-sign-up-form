@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+body{
+    background-color: #7b97b3; 
+    
+    padding:0;
+    margin: 0;
+}
+.left,
+.left-image{
+    position: relative;
+    margin:0;
+    padding: 0;
+    width: 40vw;
+    height: 100vh;
+}
+
+.left-image{
+    position: absolute;
+}
+
+.logo-container{
+    top: 12rem;
+    position: absolute;
+    width: 100%;
+    background-color: #7b97b3;
+    height: 200px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.logo{
+    width: 8rem;
+}
